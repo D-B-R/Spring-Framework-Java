@@ -1,6 +1,7 @@
 package br.com.alura.gerenciador.servlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,8 +17,16 @@ public class OiMundoServlet extends HttpServlet  {
 	
 	
 	@Override // anotação para o compilador
-	protected void service(HttpServletRequest req, HttpServletResponse resp)  {
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 	
+		
+		PrintWriter out = resp.getWriter();
+		out.print("<html>");
+		out.print("<body>");
+		out.print("oi mundo parabens");
+		out.print("<body>");
+		out.print("<html>");
+		
 		
 	}
 	
