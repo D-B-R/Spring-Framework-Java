@@ -18,7 +18,7 @@ public class NovaEmpresaServlet extends HttpServlet {
 
 		System.out.println("cadastrando nova empresa ");
 		PrintWriter out = response.getWriter();
-		out.println("<html><body> Bem vindo mundo </body></html>");
+		out.println("<html><body> Bem vindo mundo nova empresa </body></html>");
 	}
 
 }
