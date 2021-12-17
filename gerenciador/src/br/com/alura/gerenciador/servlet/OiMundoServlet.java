@@ -11,15 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 
 //oi 
 
-@WebServlet(urlPatterns="/oi")
+@WebServlet(urlPatterns = "/oi")
 
-public class OiMundoServlet extends HttpServlet  {
-	
-	
+public class OiMundoServlet extends HttpServlet {
+
 	@Override // anotação para o compilador
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-	
-		
+
 		PrintWriter out = resp.getWriter();
 		out.print("<html>");
 		out.print("<body>");
@@ -27,8 +25,8 @@ public class OiMundoServlet extends HttpServlet  {
 		out.print("<body>");
 		out.print("<html>");
 		
-		
+		System.out.println("oi servelt oimundo foi chamado");
+
 	}
-	
 
 }
