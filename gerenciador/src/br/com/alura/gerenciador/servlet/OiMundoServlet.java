@@ -11,7 +11,7 @@ public class OiMundoServlet extends HttpServlet  {
 	
 	
 	@Override
-	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void service(HttpServletRequest req, HttpServletResponse resp)  {
 		// TODO Auto-generated method stub
 		super.service(req, resp);
 	}
