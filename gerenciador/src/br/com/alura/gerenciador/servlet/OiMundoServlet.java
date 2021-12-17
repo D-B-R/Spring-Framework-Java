@@ -7,10 +7,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+//oi 
+
+@
+
 public class OiMundoServlet extends HttpServlet  {
 	
 	
-	@Override
+	@Override // anotação para o compilador
 	protected void service(HttpServletRequest req, HttpServletResponse resp)  {
 	
 		
