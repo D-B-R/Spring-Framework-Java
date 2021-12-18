@@ -20,6 +20,7 @@ public class OiMundoServlet extends HttpServlet {
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 
 		PrintWriter out = resp.getWriter();
+		
 		out.print("<html>");
 		
 		out.print("<body>");
