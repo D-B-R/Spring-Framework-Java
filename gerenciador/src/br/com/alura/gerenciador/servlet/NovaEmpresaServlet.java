@@ -17,7 +17,6 @@ public class NovaEmpresaServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 		System.out.println("cadastrando nova empresa ");
-
 		String nomeEmpresa = request.getParameter("nome");			
 		
 		
